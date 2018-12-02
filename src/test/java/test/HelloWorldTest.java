@@ -24,7 +24,7 @@ public class HelloWorldTest {
         Task task = new Task("Comer","2211","otro","high","Emilio");
         TaskOperation tas = new TaskOperation();
         
-        tas.saveTask(task);
+        //tas.saveTask(task);
         
         assertTrue(tas.compareTaskList(task));
         
