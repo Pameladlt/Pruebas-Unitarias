@@ -22,12 +22,11 @@ public class HelloWorldTest {
     public void saveTaskTest(){
         
         Task task = new Task("Comer","2211","otro","high","Emilio");
-	            Task task2 = new Task("Comer","2211","otro","high","galindo");
         TaskOperation tas = new TaskOperation();
         
-        tas.saveTask(task);
+        //tas.saveTask(task);
         
-        assertTrue(tas.compareTaskList(tas2));
+        assertTrue(tas.compareTaskList(task));
         
     }
     
